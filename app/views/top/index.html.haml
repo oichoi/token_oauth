@@ -1,1 +1,5 @@
 %h1= "Welcome to #{Settings.app_name}"
+- if signed_in?
+  = "profile"
+  = "name:sakaguchi yuki"
+  = "age:22"
